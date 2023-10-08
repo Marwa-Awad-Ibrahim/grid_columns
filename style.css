@@ -1,0 +1,24 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    padding: 5px;
+    margin:5px;
+    border-radius: 5px;
+    border: 5px solid #56626E;
+    gap:10px;
+}
+section{
+    box-sizing: border-box;
+    color:#ffffff;
+    background-color: #59A1AF;
+    font-weight: bold;
+    padding: 10px; 
+   border-radius: 5px;
+    
+}
